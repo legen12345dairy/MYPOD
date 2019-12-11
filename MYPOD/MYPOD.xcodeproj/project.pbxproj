@@ -10,35 +10,10 @@
 		AC45AED023A0EA7300583BFA /* MYPOD.h in Headers */ = {isa = PBXBuildFile; fileRef = AC45AEC223A0EA7200583BFA /* MYPOD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AC45AF1923A0EA9700583BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AC45AEE223A0EA9400583BFA;
-			remoteInfo = MYAPP;
-		};
-		AC45AF1B23A0EA9700583BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AC45AEF623A0EA9600583BFA;
-			remoteInfo = MYAPPTests;
-		};
-		AC45AF1D23A0EA9700583BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AC45AF0123A0EA9600583BFA;
-			remoteInfo = MYAPPUITests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AC45AEBF23A0EA7200583BFA /* MYPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC45AEC223A0EA7200583BFA /* MYPOD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPOD.h; sourceTree = "<group>"; };
 		AC45AEC323A0EA7200583BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MYAPP.xcodeproj; path = MYAPP/MYAPP.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +30,6 @@
 		AC45AEB523A0EA7200583BFA = {
 			isa = PBXGroup;
 			children = (
-				AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */,
 				AC45AEC123A0EA7200583BFA /* MYPOD */,
 				AC45AEC023A0EA7200583BFA /* Products */,
 			);
@@ -76,16 +50,6 @@
 				AC45AEC323A0EA7200583BFA /* Info.plist */,
 			);
 			path = MYPOD;
-			sourceTree = "<group>";
-		};
-		AC45AF1423A0EA9600583BFA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AC45AF1A23A0EA9700583BFA /* MYAPP.app */,
-				AC45AF1C23A0EA9700583BFA /* MYAPPTests.xctest */,
-				AC45AF1E23A0EA9700583BFA /* MYAPPUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +109,12 @@
 			mainGroup = AC45AEB523A0EA7200583BFA;
 			productRefGroup = AC45AEC023A0EA7200583BFA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AC45AF1423A0EA9600583BFA /* Products */;
-					ProjectRef = AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				AC45AEBE23A0EA7200583BFA /* MYPOD */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		AC45AF1A23A0EA9700583BFA /* MYAPP.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MYAPP.app;
-			remoteRef = AC45AF1923A0EA9700583BFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AC45AF1C23A0EA9700583BFA /* MYAPPTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MYAPPTests.xctest;
-			remoteRef = AC45AF1B23A0EA9700583BFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AC45AF1E23A0EA9700583BFA /* MYAPPUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MYAPPUITests.xctest;
-			remoteRef = AC45AF1D23A0EA9700583BFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AC45AEBD23A0EA7200583BFA /* Resources */ = {
