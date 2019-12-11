@@ -12,6 +12,9 @@
 		AC45AEEB23A0EA9400583BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEE923A0EA9400583BFA /* Main.storyboard */; };
 		AC45AEED23A0EA9600583BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEEC23A0EA9600583BFA /* Assets.xcassets */; };
 		AC45AEF023A0EA9600583BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEEE23A0EA9600583BFA /* LaunchScreen.storyboard */; };
+		AC4FE1B723A0F79D008F3857 /* MYAPPTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEF623A0EA9600583BFA /* MYAPPTests.xctest */; };
+		AC4FE1B823A0F79E008F3857 /* MYAPPTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEF623A0EA9600583BFA /* MYAPPTests.xctest */; };
+		AC4FE1B923A0F79F008F3857 /* MYAPPTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = AC45AEF623A0EA9600583BFA /* MYAPPTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4FE1B723A0F79D008F3857 /* MYAPPTests.xctest in Resources */,
 				AC45AEF023A0EA9600583BFA /* LaunchScreen.storyboard in Resources */,
 				AC45AEED23A0EA9600583BFA /* Assets.xcassets in Resources */,
 				AC45AEEB23A0EA9400583BFA /* Main.storyboard in Resources */,
@@ -213,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4FE1B823A0F79E008F3857 /* MYAPPTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4FE1B923A0F79F008F3857 /* MYAPPTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
