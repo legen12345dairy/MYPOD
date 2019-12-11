@@ -7,20 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC45AEC923A0EA7300583BFA /* MYPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC45AEBF23A0EA7200583BFA /* MYPOD.framework */; };
-		AC45AECE23A0EA7300583BFA /* MYPODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45AECD23A0EA7300583BFA /* MYPODTests.swift */; };
 		AC45AED023A0EA7300583BFA /* MYPOD.h in Headers */ = {isa = PBXBuildFile; fileRef = AC45AEC223A0EA7200583BFA /* MYPOD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC45AF2723A0F40B00583BFA /* MYTESTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45AF2623A0F40B00583BFA /* MYTESTS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC45AECA23A0EA7300583BFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC45AEB623A0EA7200583BFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC45AEBE23A0EA7200583BFA;
-			remoteInfo = MYPOD;
-		};
 		AC45AF1923A0EA9700583BFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */;
@@ -48,32 +38,11 @@
 		AC45AEBF23A0EA7200583BFA /* MYPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC45AEC223A0EA7200583BFA /* MYPOD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPOD.h; sourceTree = "<group>"; };
 		AC45AEC323A0EA7200583BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC45AEC823A0EA7300583BFA /* MYPODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPODTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC45AECD23A0EA7300583BFA /* MYPODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYPODTests.swift; sourceTree = "<group>"; };
-		AC45AECF23A0EA7300583BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MYAPP.xcodeproj; path = MYAPP/MYAPP.xcodeproj; sourceTree = "<group>"; };
-		AC45AF2423A0F40B00583BFA /* MYTESTS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYTESTS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC45AF2623A0F40B00583BFA /* MYTESTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTESTS.swift; sourceTree = "<group>"; };
-		AC45AF2823A0F40B00583BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC45AEBC23A0EA7200583BFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC45AEC523A0EA7300583BFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC45AEC923A0EA7300583BFA /* MYPOD.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC45AF2123A0F40B00583BFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +57,6 @@
 			children = (
 				AC45AF1323A0EA9600583BFA /* MYAPP.xcodeproj */,
 				AC45AEC123A0EA7200583BFA /* MYPOD */,
-				AC45AECC23A0EA7300583BFA /* MYPODTests */,
-				AC45AF2523A0F40B00583BFA /* MYTESTS */,
 				AC45AEC023A0EA7200583BFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				AC45AEBF23A0EA7200583BFA /* MYPOD.framework */,
-				AC45AEC823A0EA7300583BFA /* MYPODTests.xctest */,
-				AC45AF2423A0F40B00583BFA /* MYTESTS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,15 +78,6 @@
 			path = MYPOD;
 			sourceTree = "<group>";
 		};
-		AC45AECC23A0EA7300583BFA /* MYPODTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC45AECD23A0EA7300583BFA /* MYPODTests.swift */,
-				AC45AECF23A0EA7300583BFA /* Info.plist */,
-			);
-			path = MYPODTests;
-			sourceTree = "<group>";
-		};
 		AC45AF1423A0EA9600583BFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,15 +86,6 @@
 				AC45AF1E23A0EA9700583BFA /* MYAPPUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AC45AF2523A0F40B00583BFA /* MYTESTS */ = {
-			isa = PBXGroup;
-			children = (
-				AC45AF2623A0F40B00583BFA /* MYTESTS.swift */,
-				AC45AF2823A0F40B00583BFA /* Info.plist */,
-			);
-			path = MYTESTS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,41 +120,6 @@
 			productReference = AC45AEBF23A0EA7200583BFA /* MYPOD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AC45AEC723A0EA7300583BFA /* MYPODTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC45AED623A0EA7300583BFA /* Build configuration list for PBXNativeTarget "MYPODTests" */;
-			buildPhases = (
-				AC45AEC423A0EA7300583BFA /* Sources */,
-				AC45AEC523A0EA7300583BFA /* Frameworks */,
-				AC45AEC623A0EA7300583BFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC45AECB23A0EA7300583BFA /* PBXTargetDependency */,
-			);
-			name = MYPODTests;
-			productName = MYPODTests;
-			productReference = AC45AEC823A0EA7300583BFA /* MYPODTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC45AF2323A0F40B00583BFA /* MYTESTS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC45AF2E23A0F40B00583BFA /* Build configuration list for PBXNativeTarget "MYTESTS" */;
-			buildPhases = (
-				AC45AF2023A0F40B00583BFA /* Sources */,
-				AC45AF2123A0F40B00583BFA /* Frameworks */,
-				AC45AF2223A0F40B00583BFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MYTESTS;
-			productName = MYTESTS;
-			productReference = AC45AF2423A0F40B00583BFA /* MYTESTS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,12 +131,6 @@
 				ORGANIZATIONNAME = "Mayank Rawat";
 				TargetAttributes = {
 					AC45AEBE23A0EA7200583BFA = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					AC45AEC723A0EA7300583BFA = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					AC45AF2323A0F40B00583BFA = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -248,8 +154,6 @@
 			projectRoot = "";
 			targets = (
 				AC45AEBE23A0EA7200583BFA /* MYPOD */,
-				AC45AEC723A0EA7300583BFA /* MYPODTests */,
-				AC45AF2323A0F40B00583BFA /* MYTESTS */,
 			);
 		};
 /* End PBXProject section */
@@ -286,20 +190,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC45AEC623A0EA7300583BFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC45AF2223A0F40B00583BFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,31 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC45AEC423A0EA7300583BFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC45AECE23A0EA7300583BFA /* MYPODTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC45AF2023A0F40B00583BFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC45AF2723A0F40B00583BFA /* MYTESTS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC45AECB23A0EA7300583BFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC45AEBE23A0EA7200583BFA /* MYPOD */;
-			targetProxy = AC45AECA23A0EA7300583BFA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AC45AED123A0EA7300583BFA /* Debug */ = {
@@ -507,76 +373,6 @@
 			};
 			name = Release;
 		};
-		AC45AED723A0EA7300583BFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MYPODTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = asasas.MYPODTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AC45AED823A0EA7300583BFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MYPODTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = asasas.MYPODTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AC45AF2923A0F40B00583BFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q466N7FHW5;
-				INFOPLIST_FILE = MYTESTS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = asasas.MYTESTS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AC45AF2A23A0F40B00583BFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q466N7FHW5;
-				INFOPLIST_FILE = MYTESTS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = asasas.MYTESTS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -594,24 +390,6 @@
 			buildConfigurations = (
 				AC45AED423A0EA7300583BFA /* Debug */,
 				AC45AED523A0EA7300583BFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC45AED623A0EA7300583BFA /* Build configuration list for PBXNativeTarget "MYPODTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC45AED723A0EA7300583BFA /* Debug */,
-				AC45AED823A0EA7300583BFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC45AF2E23A0F40B00583BFA /* Build configuration list for PBXNativeTarget "MYTESTS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC45AF2923A0F40B00583BFA /* Debug */,
-				AC45AF2A23A0F40B00583BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
